@@ -11,3 +11,5 @@ app.listen(port, () => {
 });
 
 app.get("/", getAlbum);
+
+export default app;
