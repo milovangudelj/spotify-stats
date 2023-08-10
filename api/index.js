@@ -10,6 +10,6 @@ app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
 
-app.get("/api", getAlbum);
+app.get("/api/getAlbum", getAlbum);
 
 export default app;
