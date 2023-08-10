@@ -2,4 +2,4 @@
 
 Idk, just an idea given to me by [@linesofcode](https://github.com/TimMikeladze/) on the official [Next.js Discord server](https://discord.gg/kY3ZuQFH).
 
-![](https://spotify.milovangudelj.com/api/getAlbum)
+![Spotify logo](https://spotify.milovangudelj.com/api/getAlbum)
