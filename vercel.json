@@ -1,4 +1,10 @@
 {
+  "builds": [
+    {
+      "src": "dist/api/index.js",
+      "use": "@now/node"
+    }
+  ],
   "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }],
   "functions": {
     "api/*.ts": {
