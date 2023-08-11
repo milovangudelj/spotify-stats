@@ -1,4 +1,6 @@
-export default async (req, res) => {
+import { Request, Response } from "express";
+
+export default async (req: Request, res: Response) => {
   res.setHeader("Content-Type", "image/svg+xml");
   res.send(`<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 496 512">
   <path fill="#1ed760" d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8Z"/>
