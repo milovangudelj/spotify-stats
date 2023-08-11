@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express, { Express, Request, Response } from "express";
 
-import getAlbum from "../src/getAlbum";
+import getAlbum from "../src/getAlbum.js";
 
 const app: Express = express();
 const port = process.env.SERVER_PORT || 3000;
